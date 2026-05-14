@@ -7,11 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +17,40 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dependency directories
+node_modules/
+jspm_packages/
+.pnpm-store
+
+# Build and Tooling outputs
+dist
+dist-ssr
+.output
+out
+.next
+.nuxt
+.cache
+.parcel-cache
+.temp
+.svelte-kit/
+**/.vitepress/dist
+.docusaurus
+
+# Runtime data and environment
+.env
+.env.*
+!.env.example
+*.pid
+*.seed
+*.pid.lock
+
+# Vite specific
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.vite/
+
+# TypeScript/Misc
+*.tsbuildinfo
+.eslintcache
+*.tgz
